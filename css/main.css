@@ -1,7 +1,69 @@
+html {
+  font-family: Libre Baskerville, serif;
+}
+
+h1,
+h2,
+h3,
+.btn,
+nav,
+dt,
+.montserrat-font {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+}
+
+/* Navigation code starts */
+
+.nav {
+  display: none;
+}
+
+/* This selected targets the `.nav` only when the checkbox is checked */
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  /* Put the checkbox off the top of the screen */
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
+}
+
+.nav-label li {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+}
+
+.nav-label img {
+
+}
+
+/* Navigation code ends */
+
+.btn {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
 .list-group {
   list-style: none;
 }
 
 .product-img {
   width: 100%;
+}
+
+li:hover {
+  background-color: #e2e2e2;
+}
+
+footer {
+  background-color: #e3e3e3;
 }
