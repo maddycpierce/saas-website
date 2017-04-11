@@ -13,39 +13,6 @@ dt,
   font-weight: normal;
 }
 
-/* Navigation code starts */
-
-.nav {
-  display: none;
-}
-
-/* This selected targets the `.nav` only when the checkbox is checked */
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-check {
-  /* Put the checkbox off the top of the screen */
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: grey;
-}
-
-.nav-label li {
-  cursor: pointer;
-  display: inline-block;
-  width: 40px;
-}
-
-.nav-label img {
-
-}
-
-/* Navigation code ends */
-
 .btn {
   border-radius: 10px;
   background-color: #fff;
