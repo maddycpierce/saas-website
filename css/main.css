@@ -1,16 +1,14 @@
 html {
-  font-family: Libre Baskerville, serif;
+  font-family: Montserrat, sans-serif;
 }
 
 h1,
 h2,
 h3,
 .btn,
-nav,
-dt,
+nav
 .montserrat-font {
-  font-family: Montserrat, sans-serif;
-  font-weight: normal;
+  font-weight: 500 ;
 }
 
 .btn {
@@ -27,10 +25,41 @@ dt,
   width: 100%;
 }
 
-li:hover {
+.card {
+  border: 10px;
+  border-color: #000;
+}
+
+.card:hover {
   background-color: #e2e2e2;
 }
 
+p {
+  margin: 0;
+}
+
+.cards {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a, .btn {
+  color: #fff;
+  background-color: #000;
+  font-weight: normal;
+}
+
+a, .btn:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
 footer {
-  background-color: #e3e3e3;
+  background-color: #000;
 }
