@@ -11,6 +11,10 @@ nav
   font-weight: 500 ;
 }
 
+.logo {
+  max-width: 30%;
+}
+
 .btn {
   border-radius: 10px;
   background-color: #fff;
@@ -19,6 +23,14 @@ nav
 
 .list-group {
   list-style: none;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .product-img {
@@ -32,6 +44,10 @@ nav
 
 .card:hover {
   background-color: #e2e2e2;
+}
+
+.gallery-img {
+  list-style-type: none;
 }
 
 p {
@@ -58,6 +74,16 @@ a, .btn:hover {
   background-color: #fff;
   color: #000;
   cursor: pointer;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+select {
+  border-radius: 4px;
+  border-color: #95989A;
 }
 
 footer {

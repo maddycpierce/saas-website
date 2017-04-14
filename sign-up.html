@@ -9,4 +9,57 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="gutter">
+
+  <header class="wrapper grid pad-t pad-b-1-2">
+    <div class="unit unit-1-3 unit-xs-centered unit-s-centered .unit-pull-m-1-3">
+      <img class="img-flex logo grid-middle" src="images/logo/medoo-logo-black.png" alt="">
+    </div>
+  </header>
+
+  <div>
+    <div class="grid">
+      <div class="unit wrapper text-center">
+        <h1 class="yotta">SIGN UP</h1>
+      </div>
+    </div>
+  </div>
+
+  <fieldset class="push-0 max-length">
+
+    <form class="grid push-0" method="POST" action="create.html>
+      <div class="unit unit-xs-1 gutter-1-4 push">
+        <label for="first-name">First Name</label>
+        <input id="first-name" name="first-name">
+      </div>
+
+      <div class="unit unit-xs-1 gutter-1-4 push">
+        <label for="last-name">Last Name</label>
+        <input id="last-name" name="last-name">
+      </div>
+
+      <div class="unit unit-xs-1 gutter-1-4 push">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="unit unit-xs-1 gutter-1-4 push">
+        <label for="country">Country</label>
+        <select id="fitness" name="country">
+          <option>Canada</option>
+          <option>China</option>
+          <option>France</option>
+          <option>India</option>
+          <option>Japan</option>
+          <option>United Kingdom</option>
+          <option>United States</option>
+        </select>
+      </div>
+
+    <div class="pad-t push-2 text-center">
+      <button class="btn grid-middle" type="submit">SIGN UP</button>
+    </div>
+    <input type="hidden" name="subject" value="Request to join the mission">
+
+    </form>
+  </fieldset>
