@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>MeDoo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body class="gutter">
 
+  <header class="wrapper grid pad-t pad-b-1-2">
+    <div class="unit unit-1-3 unit-xs-centered unit-s-centered .unit-pull-m-1-3">
+      <img class="img-flex logo grid-middle" src="images/logo/medoo-logo-black.png" alt="">
+    </div>
+  </header>
+
+  <div>
+    <div class="grid">
+      <div class="unit wrapper text-center">
+        <h1 class="yotta">SIGN UP</h1>
+      </div>
+    </div>
+  </div>
+
+  <fieldset class="push-0 max-length">
+
+    <form class="grid push-0" method="POST" action="https://formspree.io/pier0180@algonquinlive.com">
+
+      <div class="unit unit-xs-1 gutter-1-4 push">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="unit unit-xs-1 gutter-1-4 push">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+      </div>
+
+    <div class="pad-t push-2 text-center">
+      <button class="btn grid-middle" type="submit">SIGN UP</button>
+    </div>
+    <input type="hidden" name="subject" value="Request to join the mission">
+
+    </form>
+  </fieldset>
