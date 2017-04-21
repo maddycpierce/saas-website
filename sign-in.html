@@ -4,51 +4,70 @@
   <meta charset="utf-8">
   <title>Sign In - MeDoo</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
-<body class="gutter">
+<body>
 
-  <header class="wrapper grid pad-t pad-b-1-2">
+  <header class="wrapper grid pad-t pad-b-1-2 gutter">
     <div class="unit xs-1 unit-xs-centered unit-s-centered">
       <a href="index.html"><img class="img-flex logo grid-middle" src="images/logo/medoo-logo-black.png" alt=""></a>
     </div>
   </header>
 
-  <div>
-    <div class="grid">
-      <div class="unit wrapper text-center">
-        <h1>SIGN IN</h1>
+  <main class="gutter">
+    <div>
+      <div class="grid">
+        <div class="unit wrapper text-center">
+          <h1>SIGN IN</h1>
+        </div>
       </div>
     </div>
-  </div>
 
-  <fieldset class="push-0 max-length">
+    <fieldset class="push-0 max-length">
 
-    <form class="grid push-0" method="POST" action="thank-you.html">
+      <form class="grid push-0" method="POST" action="thank-you.html">
 
-      <div class="unit unit-xs-1 gutter-1-4 push">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
+        <div class="unit unit-xs-1 gutter-1-4 push">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="unit unit-xs-1 gutter-1-4 push">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+        </div>
+
+      <div class="pad-t push-2 text-center">
+        <button class="btn grid-middle" type="submit">SIGN IN</button>
+      </div>
+      <input type="hidden" name="subject" value="Thank you!">
+
+      <div class="unit unit-xs-1 grid-middle push-2">
+        <p class="micro">Don't have an account yet? <a class="bold" href="sign-up.html">Sign Up</a></p>
       </div>
 
-      <div class="unit unit-xs-1 gutter-1-4 push">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password">
+      </form>
+    </fieldset>
+  </main>
+
+  <footer class="gutter">
+    <div class="clearfix">
+      <div class="pad-t-1-2 left logo logo-footer">
+        <a href="index.html"><img class="img-flex" src="images/logo/medoo-logo-white.png" alt=""></a>
       </div>
-
-    <div class="pad-t push-2 text-center">
-      <button class="btn grid-middle" type="submit">SIGN IN</button>
+      <div class="right pad-t-1-2">
+        <div class="icon i-48">
+          <img src="images/logo/icon-facebook.png" alt="">
+        </div>
+        <div class="icon i-48 pad-t-1-2">
+          <img src="images/logo/icon-youtube.png" alt="">
+        </div>
+      </div>
     </div>
-    <input type="hidden" name="subject" value="Thank you!">
-
-    <div class="unit unit-xs-1 grid-middle push-2">
-      <p class="micro">Don't have an account yet? <a class="bold" href="sign-up.html">Sign Up</a></p>
-    </div>
-
-    </form>
-  </fieldset>
+  </footer>
 
 </body>
