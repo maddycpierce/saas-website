@@ -48,10 +48,6 @@ a,
   cursor: pointer;
 }
 
-.list-group {
-  list-style: none;
-}
-
 .card {
   border: 10px;
   background-color: #f3f4ef;
@@ -99,4 +95,12 @@ select {
 
 footer {
   background-color: #000;
+}
+
+.logo-footer {
+  max-width: 7em;
+}
+
+tfoot td {
+  border-bottom: 0;
 }
