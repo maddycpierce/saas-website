@@ -104,3 +104,8 @@ footer {
 tfoot td {
   border-bottom: 0;
 }
+
+th,
+td {
+  border-bottom: 1px solid #f3f4ef;
+}
