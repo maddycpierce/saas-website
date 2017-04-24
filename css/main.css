@@ -18,8 +18,7 @@ nav {
 }
 
 nav a:hover {
-  border-bottom: 1px solid #e2e2e2;
-  color: #e2e2e2;
+  color: #e2e5d5;
 }
 
 nav button a:hover {
@@ -29,12 +28,13 @@ nav button a:hover {
 .btn {
   border-radius: 10px;
   background-color: #000;
-  color: #fff;
+  color: #e2e5d5;
   font-weight: 400;
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: #e2e5d5;
+  border-color: #e2e5d5;
   color: #000;
 }
 
@@ -108,4 +108,8 @@ tfoot td {
 th,
 td {
   border-bottom: 1px solid #f3f4ef;
+}
+
+.learn-more:hover {
+  color: #e2e5d5;
 }
