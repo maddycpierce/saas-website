@@ -98,7 +98,7 @@ footer {
 }
 
 .logo-footer {
-  max-width: 7em;
+  max-width: 5em;
 }
 
 tfoot td {
@@ -112,4 +112,14 @@ td {
 
 .learn-more:hover {
   color: #e2e5d5;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav ul li {
+    padding-right: 20px;
+  }
+
+}
+
 }
